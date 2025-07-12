@@ -1,4 +1,9 @@
 
-<country-search-input (valueInput)="onSearch($event)" placeholderText="Buscar por capital de pais" />
+<country-search-input (valueInput)="query.set($event)" placeholderText="Buscar por capital de pais" />
 
-<country-list/>
+<country-list 
+    [countries] = "countryResource.value() ?? []"
+    [errorMessage]="countryResource.error()"
+    [isEmpty]="countryResource.value()?.length === 0"
+    [isLoading]="countryResource.isLoading()"
+/>
