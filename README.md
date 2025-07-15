@@ -1,59 +1,12 @@
-# CountryApp
+# CountryApp - v2
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+- Se hace uso de [Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite).
+- Se usan a su vez clases de [DaisyUI](https://daisyui.com/docs/install/) que trabaja con Tailwind.
 
-## Development server
+## Capturas de pantalla
 
-To start a local development server, run:
+<img width="1918" height="983" alt="Image" src="https://github.com/user-attachments/assets/0ed9f293-d04c-446f-971d-8cd5fad4c978" />
 
-```bash
-ng serve
-```
+<img width="1918" height="960" alt="Image" src="https://github.com/user-attachments/assets/be6097db-53ec-4d53-a9e6-b1362df9064b" />
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<img width="1911" height="925" alt="Image" src="https://github.com/user-attachments/assets/15fad6a9-9081-4a49-8ea8-d4f9071300b9" />
